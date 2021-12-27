@@ -1,0 +1,15 @@
+def num_translate(number):
+    words = {'one': 'один',
+             'two': 'два',
+             'three': 'три',
+             'four': 'четыре',
+             'five': 'пять',
+             'six': 'шесть',
+             'seven': 'семь',
+             'eight': 'восемь',
+             'nine': 'девять',
+             'teen': 'десять'}
+    print(words.get(number))
+
+
+num_translate("five")
